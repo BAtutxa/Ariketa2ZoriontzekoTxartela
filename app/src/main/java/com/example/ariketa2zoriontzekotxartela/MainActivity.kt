@@ -14,9 +14,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisallowComposableCalls
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -53,7 +51,7 @@ fun ZorionakTestua(modifier: Modifier = Modifier){
     Column(modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center) {
         Text(
-            text = "Zorionak 3PAG2!!",
+            text = "Zorionak 3PAG2ko Ikasleak!!",
             fontSize = 70.sp,
             textAlign = TextAlign.Center,
             lineHeight = 80.sp,
