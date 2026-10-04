@@ -86,7 +86,7 @@ fun ZorionakTestua(modifier: Modifier = Modifier) {
             textAlign = TextAlign.Center
         )
 
-        Spacer(modifier = Modifier.height(18.dp))
+        Spacer(modifier = Modifier.height(20.dp))
 
         Text(
             text = "❄️  ⭐  ❄️",
