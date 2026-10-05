@@ -64,8 +64,8 @@ fun ZorionakTxartela(modifier: Modifier = Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Zorionak Nerea,\nondo pasa!",
-                fontSize = 42.sp,
+                text = "Zorionak Nerea, ondo pasa!",
+                fontSize = 45.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFF3E2723),
                 textAlign = TextAlign.Center,
@@ -85,7 +85,7 @@ fun ZorionakTxartela(modifier: Modifier = Modifier) {
     }
 }
 
-@Preview(showBackground = true, showSystemUi = true, device = "spec:width=412dp,height=915dp,dpi=420")
+@Preview(showBackground = true, showSystemUi = true, device = "id:medium_phone")
 @Composable
 fun ZorionakTxartelaPreview() {
     Ariketa2ZoriontzekoTxartelaTheme {
